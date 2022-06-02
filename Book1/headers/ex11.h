@@ -3,9 +3,9 @@
 
 using namespace std;
 
-void ex10() {
+void ex11(){
     double a, b;
-    double sum, div, mult, sub;
+    double sum, sub, mult, div;
 
     cout << "Write number a: ";
     cin >> a;
@@ -20,11 +20,11 @@ void ex10() {
         cin >> b;
     }
 
-    sum = pow(a,2) + pow(b,2);
-    sub = pow(a,2) - pow(b,2);
-    mult = pow(a,2) * pow(b,2);
-    div = pow(a,2) / pow(b,2);
+    sum = abs(a) + sum(b);
+    sub = abs(a) - abs(b);
+    mult = abs(a) * abs(b);
+    div = abs(a) / abs(b);
 
-    printf("Sum of squares: %.0lf, subtract of squares: %.0lf, multiply of squares: %.0lf, divide of squares: %.2lf.\n",
+    printf("Absolute a and b:\nSum: %.0lf;\nSub: %.0lf;\nMult: %.0lf;\nDiv: %.2lf.\n", 
     sum, sub, mult, div);
 }
