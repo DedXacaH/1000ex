@@ -17,8 +17,6 @@ void ex10() {
     mult = pow(a,2) * pow(b,2);
     div = pow(a,2) / pow(b,2);
 
-    printf("Sum of squares: %.0lf, 
-    subtract of squares: %.0lf, 
-    multiply of squares: %.0lf, 
-    divide of squares: %.2lf.\n", sum, sub, mult, div);
+    printf("Sum of squares: %.0lf, subtract of squares: %.0lf, multiply of squares: %.0lf, divide of squares: %.2lf.\n",
+    sum, sub, mult, div);
 }
