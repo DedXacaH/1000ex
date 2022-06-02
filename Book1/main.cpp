@@ -1,18 +1,16 @@
 #include <iostream>
-#include "ex1.h"
-#include "ex2.h"
-#include "ex3.h"
-#include "ex4.h"
-#include "ex5.h"
-#include "ex6.h"
-#include "ex7.h"
+#include "headers/ex1.h"
+#include "headers/ex2.h"
+#include "headers/ex3.h"
+#include "headers/ex4.h"
+#include "headers/ex5.h"
+#include "headers/ex6.h"
+#include "headers/ex7.h"
 
 using namespace std;
 
 int main() {
     int exe = 0;
-
-
 
     while (true){
         cout << "Write a number of exercise: ";
