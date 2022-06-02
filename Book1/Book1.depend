@@ -2,3 +2,35 @@
 1654088309 source:e:\1000exercisesforprogramming\ex1\main.cpp
 	<iostream>
 
+1654177261 source:e:\1000exercisesforprogramming\book1\main.cpp
+	<iostream>
+	"ex1.h"
+	"ex2.h"
+	"ex3.h"
+	"ex4.h"
+	"ex5.h"
+	"ex6.h"
+	"ex7.h"
+
+1654176448 e:\1000exercisesforprogramming\book1\ex1.h
+	<iostream>
+
+1654176456 e:\1000exercisesforprogramming\book1\ex2.h
+	<iostream>
+
+1654177386 e:\1000exercisesforprogramming\book1\ex3.h
+	<iostream>
+
+1654177358 e:\1000exercisesforprogramming\book1\ex4.h
+	<iostream>
+
+1654177328 e:\1000exercisesforprogramming\book1\ex5.h
+	<iostream>
+	<math.h>
+
+1654177363 e:\1000exercisesforprogramming\book1\ex6.h
+	<iostream>
+
+1654177501 e:\1000exercisesforprogramming\book1\ex7.h
+	<iostream>
+

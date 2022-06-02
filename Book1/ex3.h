@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int ex3(){
+void ex3(){
     double a, b;
     double S, P;
 
@@ -14,5 +14,5 @@ int ex3(){
     S = a * b;
     P = 2 * (a + b);
 
-    printf("Perimeter of rectangle with sides %lf and %lf is %lf. Square of it is %lf", a, b, P, S);
+    printf("Perimeter of rectangle with sides %.0lf and %.0lf is %.0lf. Square of it is %.0lf\n", a, b, P, S);
 }

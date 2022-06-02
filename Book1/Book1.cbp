@@ -32,9 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="ex1.cpp" />
-		<Unit filename="ex2.cpp" />
-		<Unit filename="ex3.cpp" />
+		<Unit filename="ex1.h" />
+		<Unit filename="ex2.h" />
+		<Unit filename="ex3.h" />
+		<Unit filename="ex4.h" />
+		<Unit filename="ex5.h" />
+		<Unit filename="ex6.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

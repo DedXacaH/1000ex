@@ -1,8 +1,9 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
-int ex5() {
+void ex5() {
     double a;
     double V, S;
 
@@ -12,6 +13,5 @@ int ex5() {
     V = a*a*a;
     S = 6*pow(a,2);
 
-    printf("Volume of cube is %lf, square of cube is %lf.", V, S);
-    return 0;
+    printf("Volume of cube is %.0lf, square of cube is %.0lf.\n", V, S);
 }

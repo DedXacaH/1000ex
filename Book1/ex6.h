@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int ex6() {
+void ex6() {
     double a, b, c;
     double V, S;
 
@@ -16,7 +16,5 @@ int ex6() {
     V = a*b*c;
     S = 2*(a*b + b*c + a*c);
 
-    printf("V = %lf, S = %lf.", V, S);
-
-    retur 0;
+    printf("V = %.0lf, S = %.0lf.\n", V, S);
 }

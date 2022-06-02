@@ -2,12 +2,11 @@
 
 using namespace std;
 
-int ex1()
+void ex1()
 {
     double a;
     cout << "Write number: ";
     cin >> a;
     a *= 4;
     cout << "Perimeter of square: " << a << endl;
-    return 0;
 }
