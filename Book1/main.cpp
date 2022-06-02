@@ -9,6 +9,11 @@
 #include "headers/ex8.h"
 #include "headers/ex9.h"
 #include "headers/ex10.h"
+#include "headers/ex11.h"
+#include "headers/ex12.h"
+#include "headers/ex13.h"
+#include "headers/ex14.h"
+#include "headers/ex15.h"
 
 using namespace std;
 
@@ -51,6 +56,21 @@ int main() {
                 break;
             case 10:
                 ex10();
+                break;
+            case 11:
+                ex11();
+                break;
+            case 12:
+                ex12();
+                break;
+            case 13:
+                ex13();
+                break;
+            case 14:
+                ex14();
+                break;
+            case 15:
+                ex15();
                 break;
             default:
                 cout << "You write wrong exercise number. Try again.\nTo exit write 0.\n\n";
