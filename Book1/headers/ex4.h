@@ -9,5 +9,6 @@ void ex4() {
 
     cout << "Write diameter: ";
     cin >> d;
-    cout << "Length of circle is " << d * PI << endl;
+    L = d*PI;
+    cout << "Length of circle is " << L << endl;
 }
