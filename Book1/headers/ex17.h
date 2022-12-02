@@ -14,9 +14,12 @@ void ex17() {
     cout << "Write point c: ";
     cin >> c;
 
-    lengthAC = (a < c) ? abs(c - a) : abs(a - c);
-    lengthBC = (b < c) ? abs(c - b) : abs(b - c);
+    lengthAC = c - a;
+    lengthBC = c - b;
     sum = lengthAC + lengthBC;
 
-    printf("Length between point A and point C: %.2lf, length between point B and point C: %.2lf, sum of this lengthes: %.2lf.\n");
+    printf("Length between point A and point C: %.2lf,"
+            " length between point B and point C: %.2lf,"
+            " sum of this lengthes: %.2lf.\n",
+            lengthAC, lengthBC, sum);
 }

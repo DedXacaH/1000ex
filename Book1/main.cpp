@@ -14,6 +14,17 @@
 #include "headers/ex13.h"
 #include "headers/ex14.h"
 #include "headers/ex15.h"
+#include "headers/ex16.h"
+#include "headers/ex17.h"
+#include "headers/ex18.h"
+#include "headers/ex19.h"
+#include "headers/ex20.h"
+#include "headers/ex21.h"
+#include "headers/ex22.h"
+#include "headers/ex23.h"
+#include "headers/ex24.h"
+#include "headers/ex25.h"
+#include "headers/ex26.h"
 
 using namespace std;
 
@@ -71,6 +82,39 @@ int main() {
                 break;
             case 15:
                 ex15();
+                break;
+            case 16:
+                ex16();
+                break;
+            case 17:
+                ex17();
+                break;
+            case 18:
+                ex18();
+                break;
+            case 19:
+                ex19();
+                break;
+            case 20:
+                ex20();
+                break;
+            case 21:
+                ex21();
+                break;
+            case 22:
+                ex22();
+                break;
+            case 23:
+                ex23();
+                break;
+            case 24:
+                ex24();
+                break;
+            case 25:
+                ex25();
+                break;
+            case 26:
+                ex26();
                 break;
             default:
                 cout << "You write wrong exercise number. Try again.\nTo exit write 0.\n\n";

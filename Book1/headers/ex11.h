@@ -1,26 +1,24 @@
 #include <iostream>
 #include <math.h>
 
-using namespace std;
-
 void ex11(){
     double a, b;
     double sum, sub, mult, div;
 
-    cout << "Write number a: ";
-    cin >> a;
+    std::cout << "Write number a: ";
+    std::cin >> a;
     if (a == 0) {
-        cout << "You write incorrect number. Try again: ";
-        cin >> a;
+        std::cout << "You write incorrect number. Try again: ";
+        std::cin >> a;
     }
-    cout << "Write number b: ";
-    cin >> b;
+    std::cout << "Write number b: ";
+    std::cin >> b;
     if (b == 0) {
-        cout << "You write incorrect number. Try again: ";
-        cin >> b;
+        std::cout << "You write incorrect number. Try again: ";
+        std::cin >> b;
     }
 
-    sum = abs(a) + sum(b);
+    sum = abs(a) + abs(b);
     sub = abs(a) - abs(b);
     mult = abs(a) * abs(b);
     div = abs(a) / abs(b);

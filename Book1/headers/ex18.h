@@ -14,9 +14,12 @@ void ex18() {
     cout << "Write point c: ";
     cin >> c;
 
-    lengthAC = (a < c) ? abs(c - a) : 0;
-    lengthBC = (b > c) ? abs(b - c) : 0;
+    lengthAC = (a < c) ? c - a : 0;
+    lengthBC = (b > c) ? b - c : 0;
     mult = lengthAC * lengthBC;
 
-    printf("Length between point A and point C: %.2lf, length between point B and point C: %.2lf, mult of this lengthes: %.2lf.\n");
+    printf("Length between point A and point C: %.2lf,"
+        " length between point B and point C: %.2lf,"
+        " mult of this lengthes: %.2lf.\n",
+        lengthAC, lengthBC, mult);
 }
